@@ -13,10 +13,12 @@ g++ -std=c++11 -c -fPIC example.cpp -o example.o -I. -I/usr/local/include -L/usr
 g++ -shared -Wl,-soname,libexample.so -o libexample.so  example.o -I. -I/usr/local/include -L/usr/local/lib -lopencv_core -lopencv_highgui -lopencv_imgproc  -lopencv_imgcodecs -lopencv_videoio -lSeetaFaceRecognizer -lSeetaFaceLandmarker -lSeetaFaceDetector
 ```
 
-将so库和model文件夹放入python项目中，
-下面给出一个例子
+去[SeetaFace2](https://github.com/seetafaceengine/SeetaFace2)下载模型文件
+创建model文件夹，将下载的模型放入文件夹。
 
 ## Demo
+
+将下载的模型放入model中
 
 ```python
 import ctypes
