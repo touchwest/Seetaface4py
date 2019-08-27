@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fd63e2be-c507-440c-9f74-91cc31081f44" name="Default Changelist" comment="" />
+    <list default="true" id="fd63e2be-c507-440c-9f74-91cc31081f44" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/fd_2_00.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/fr_2_10.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/pd_2_00_pts5.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/pd_2_00_pts81.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.example.cpp.swp" beforeDir="false" afterPath="$PROJECT_DIR$/../.example.cpp.swp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/seetaface4py.py" beforeDir="false" afterPath="$PROJECT_DIR$/seetaface4py.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,8 +25,13 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1Pj3ZNTxufUgK3O3XppUuX4q1rB" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
@@ -76,5 +91,18 @@
       <updated>1566373732086</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
