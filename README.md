@@ -1,4 +1,4 @@
-#seetaFace4py
+# seetaFace4py
 
 这个项目基于中科院山世光老师的第二代开源人脸识别引擎Seetaface2开发的用于python的链接库。
 
@@ -47,7 +47,7 @@ print(f.contents.data[0])
 
 ```
 
-####Output
+#### Output
 
 ```python
 [INFO] FaceDetector: Core size: 640x480
