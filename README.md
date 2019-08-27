@@ -9,8 +9,8 @@
 
 ```bash
 cd seetaface4py
-g++ -std=c++11 -c -fPIC example.cpp -o example.o -I. -I/usr/local/include -L/usr/local/lib -lopencv_core -lopencv_highgui -lopencv_imgproc  -lopencv_imgcodecs -lopencv_videoio -lSeetaFaceRecognizer -lSeetaFaceLandmarker -lSeetaFaceDetector
-g++ -shared -Wl,-soname,libexample.so -o libexample.so  example.o -I. -I/usr/local/include -L/usr/local/lib -lopencv_core -lopencv_highgui -lopencv_imgproc  -lopencv_imgcodecs -lopencv_videoio -lSeetaFaceRecognizer -lSeetaFaceLandmarker -lSeetaFaceDetector
+g++ -std=c++11 -c -fPIC FaceRec.cpp -o FaceRec.o -I. -I/usr/local/include -L/usr/local/lib -lopencv_core -lopencv_highgui -lopencv_imgproc  -lopencv_imgcodecs -lopencv_videoio -lSeetaFaceRecognizer -lSeetaFaceLandmarker -lSeetaFaceDetector
+g++ -shared -Wl,-soname,libfacerec.so -o libfacerec.so  FaceRec.o -I. -I/usr/local/include -L/usr/local/lib -lopencv_core -lopencv_highgui -lopencv_imgproc  -lopencv_imgcodecs -lopencv_videoio -lSeetaFaceRecognizer -lSeetaFaceLandmarker -lSeetaFaceDetector
 ```
 
 去[SeetaFace2](https://github.com/seetafaceengine/SeetaFace2)下载模型文件
