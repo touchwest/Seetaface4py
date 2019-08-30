@@ -32,6 +32,7 @@ class Faceext
     void init();
     Feature getFeatures(char*);
     float CalSimilar(float*, float*);
+    float getByIndex(float*,int);
 
     seeta::FaceDetector *FD;
     seeta::FaceLandmarker *FL;

@@ -80,3 +80,7 @@ float Faceext::CalSimilar(float *fc1, float *fc2)
     return float(similar);
 }
 
+float Faceext::getByIndex(float *feature, int index)
+{
+    return *(feature+index);
+}
