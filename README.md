@@ -4,6 +4,8 @@
 
 目前仅支持linux下的编译。
 
+swigDemo提供了python2.7下的安装版本。
+
 ## 编译
 
 
